@@ -9,7 +9,6 @@ services:
   database:
     container_name: sandbox
     image: postgres
-    restart: always
     env_file:
       - ./.env
     ports:
