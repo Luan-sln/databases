@@ -8,3 +8,6 @@ With the .env create, open your terminal and execute the following command:
 > docker compose up
 
 Open your docker and see if the container is on.
+
+> disclaimer. git error auth;
+> git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager.exe"
