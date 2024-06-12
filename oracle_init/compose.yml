@@ -2,11 +2,11 @@ version: '3.1'
 services:
   engenharia:
     image: oracle/database:21.3.0-xe
-    env_file:
-      - ./.env
+    environment:
+      - ORACLE_USER=engenharia
+      - ORACLE_PWD=engenharia
     volumes:
       - /home/oracle/oradata
     ports:
       - 51521:1521
-      - 8080:8080
       - 5500:5500
